@@ -19,7 +19,7 @@
     document.getElementById("incorrect").innerHTML = " ";
     
     //api key
-    //Go openWeather webiste and generate your api key
+    //Go to openWeather webiste and generate your api key
     let api_key = 'ENTER YOUR API KEY HERE'; 
     //api url
     var api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`;
